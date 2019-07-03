@@ -1,0 +1,83 @@
+/* body { */
+/* 	font-family: quicksand; */
+/* 	font-size: 20px; */
+/* 	background: black; */
+/* 	background-image: url("RG Logo.jpg"); */
+/* 	background-attachment: Fixed; */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: center; */
+/* 	color: black; */
+/* } */
+
+h1 {
+	color: #6C3483;
+	text-align: center;
+	position: sticky;
+	top: 0;
+	font-family: quicksand;
+}
+
+p {
+	border-left: 6px solid #6C3483;
+	background-color:;
+	margin-right: 70px;
+	color: #d2dae2;
+	width: 200px;
+	opacity:
+}
+
+.news1 {
+	text-align: center;
+	border-left: 20px solid #6C3483;
+	background: white;
+	opacity: 0.9;
+	color: #6C3483;
+	padding: 5%
+}
+
+h2 {
+	font: bold;
+	color: #6C3483;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #5B2C6F;
+	background-color: #17202A;
+	position: sticky;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 20px;
+	color: white;
+}
+
+li a:hover:not (.active ) {
+	background-color: #6C3483
+}
+
+.active {
+	background-color: #6C3483;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	color: #5B2C6F;
+}

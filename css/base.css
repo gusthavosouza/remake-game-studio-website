@@ -1,0 +1,307 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+body, html {
+	margin: 0;
+	letter-spacing: 2px;
+	-webkit-overflow-scrolling: touch;
+	height: 100%;
+	font-family: 'Righteous', cursive;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	text-align: right;
+	width: 100%;
+	z-index: 1;
+}
+
+.navbar a {
+	display: inline-block;
+	color: #b8b8b8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navbar a:hover {
+	color: #fff;
+}
+
+.navbar .active {
+	color: #fff;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.social {
+	margin: 8px;
+}
+
+.social li {
+	/* 	float: left; */
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.social li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.social li a:hover {
+	color: #298330;
+	background-color: #fff;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	align-items: center;
+	padding: 25px 0
+}
+
+.container:after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.wrap {
+	max-width: 1230px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+}
+
+.filter {
+	width: 100%;
+	height: 80%;
+	background-color: rgba(18, 43, 21, 0.4);
+	position: absolute;
+}
+
+.center {
+	text-align: center;
+}
+
+#section-title {
+	height: 80%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-image: url(../img/game_art.jpg);
+	text-align: center;
+	color: white;
+}
+
+.title-site {
+	font-size: 48px;
+	display: block;
+	margin-block-start: 0;
+	margin-block-end: 0.4em;
+	display: block;
+}
+
+.subtitle-site {
+	font-size: 36px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.wrap-title-site, .wrap-title-site-signup {
+	position: relative;
+	top: 30%;
+	text-align: center;
+}
+
+.wrap-title-site {
+	-ms-transform: translate(0, -50%);
+	color: #fff;
+	width: 100%;
+	padding: 4px;
+}
+
+.container-title {
+	text-align: center;
+	color: #4f4c61;
+	font-size: 32px;
+}
+
+.subscribe-title {
+	text-align: center;
+	color: #FFF;
+	font-size: 32px;
+}
+
+.email {
+	padding: 12px 20px;
+	width: 50%;
+	display: inline-block;
+}
+
+.btn-sub {
+	padding: 12px 20px;
+	background-color: #20a8e7;
+	background-color: #fd2cd0;
+	color: white;
+	display: inline-block;
+	margin-top: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	[class*="col-"] {
+		width: 100%;
+	}
+	[class*="box-"] {
+		width: 100% !important;
+		padding-left: .83333rem;
+		padding-right: .83333rem;
+	}
+	.agenda {
+		width: 100%;
+	}
+	.text-gamer {
+		width: 100%;
+		max-width: 100%;
+	}
+	.box-left {
+		width: 100% !important;
+	}
+	.box-left-2 {
+		width: 100% !important;
+	}
+	.subtitle-site {
+		font-size: 24px;
+		width: 100%;
+	}
+	.title-site {
+		font-size: 28px;
+	}
+}
+
+.img-100 {
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.box-left {
+	/* width: 50%;
+			float: left;
+			box-sizing: border-box;
+			padding: 20px; 
+			height: 50vh; */
+	width: 48%;
+	float: left;
+	box-sizing: border-box;
+	height: 50vh;
+	margin: 1%;
+}
+
+.box-left-2 {
+	width: 48%;
+	float: left;
+	box-sizing: border-box;
+	/* height: 50vh; */
+	margin: 1%;
+}
+
+.box-50 {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.box {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding: 20px 40px;
+}
+
+.box-100 {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	/* 	margin: 1%; */
+}
+
+.box-3 {
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.game-1 {
+	background-image: url('../img/party.jpg');
+}
+
+.game-2 {
+	background-image: url('../img/game_2.jpg');
+}
+
+.long-text {
+	line-height: 1.5em;
+}
+
+footer {
+	background-color: #009ddc;
+	color: #ffffff;
+	padding: 80px;
+}
+
+footer .social {
+	margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.p-80 {
+	    padding-top: 80px;
+    padding-right: 80px;
+/*     padding-bottom: 80px; */
+    padding-left: 80px;
+}
+
+.links a {
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	    padding: 10px 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.copyright {
+	    display: block;
+    margin: 30px;
+}
