@@ -1,12 +1,18 @@
 @import
 	url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
+
+
 body, html {
 	margin: 0;
 	letter-spacing: 2px;
 	-webkit-overflow-scrolling: touch;
 	height: 100%;
 	font-family: 'Righteous', cursive;
+}
+
+a {
+	text-decoration: none;
 }
 
 .navbar {
@@ -292,6 +298,10 @@ footer .social {
     padding-left: 80px;
 }
 
+.white {
+	color: white;
+}
+
 .links a {
 	display: inline-block;
 	color: #ffffff;
@@ -304,4 +314,9 @@ footer .social {
 .copyright {
 	    display: block;
     margin: 30px;
+}
+
+.menu-normal {
+	background-color: #525252;
+	color: #dadada;
 }
