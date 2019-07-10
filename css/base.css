@@ -275,6 +275,10 @@ ul {
 	background-image: url('../img/game_2.jpg');
 }
 
+.trailer-1{
+	background-image: url('../img/trailer.png');
+}
+
 .long-text {
 	line-height: 1.5em;
 }
