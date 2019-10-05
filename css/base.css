@@ -433,6 +433,10 @@ input, textarea {
 	width: 100%;
 }
 
+.contact a {
+	color: black;
+}
+
 .contact i {
 	margin-right: 10px;
 }
@@ -451,4 +455,8 @@ input, textarea {
 
 .btn-submit:hover {
 	    background-color: #00a0a0;
+}
+
+.link-fix {
+    color: inherit;
 }
